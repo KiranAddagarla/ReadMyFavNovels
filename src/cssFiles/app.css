@@ -1,0 +1,16 @@
+.my-logo{
+    height: 75px;
+    width: 75px;
+}
+
+/*This is modifying the btn-primary colors but you could create your own .btn-something class as well*/
+.btn-primary {
+    color: #fff;
+    background-color: #f1f5f5;
+    border-color: #cdf8f8; /*set the color you want here*/
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: rgb(70, 71, 71);
+    background-color: #9dd3df;
+    border-color: #686969; /*set the color you want here*/
+}

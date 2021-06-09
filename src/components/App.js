@@ -1,11 +1,16 @@
 import React from "react";
+import { ApplicationProvider } from "../context/ApplicationContext";
+import Navigator from '../components/Navigator';
 
 
 const App = () => {
     return(
-    <div>
-        <h1> New Test Application</h1>
-    </div>
+    <ApplicationProvider>
+        <div>
+            <Navigator />
+            
+        </div>
+    </ApplicationProvider>
     );
 }
 
