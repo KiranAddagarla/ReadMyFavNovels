@@ -19,7 +19,7 @@ const Navigator = () => {
     ]);
 
     const navLogo = (<img className="rounded my-logo" src={ApplicationLogo} />);
-    const navButtons = buttons.map( buttonDetails => (<li class="nav-item"><a class="nav-link btn btn-primary m-1"  key={buttonDetails.buttonName} href={buttonDetails.url}>{buttonDetails.buttonName}</a></li>));
+    const navButtons = buttons.map( buttonDetails => (<li class="nav-item"><a class="nav-link btn navbar-button m-1"  key={buttonDetails.buttonName} href={buttonDetails.url}>{buttonDetails.buttonName}</a></li>));
        
 
     return (
